@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round&display=swap");
+html {
+    font-family: 'Varela Round';
+}
+body {
+    margin: 0;
+}
+*:focus {
+    outline: none;
+}
+button {
+    border: none;
+}

@@ -1,0 +1,71 @@
+
+body {
+    margin: 0;
+    display: none;
+    font-family: 'Varela Round', sans-serif;
+}
+#explorer {
+    background: rgb(230, 230, 230);
+    display: inline-block;
+    width: 20%;
+    min-width: 250px;
+    height: 100%;
+    position: fixed;
+}
+.ExplorerElements {
+    background: silver;
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    z-index: 11;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.2s ease-in background;
+}
+.ExplorerElements:hover {
+    cursor: pointer;
+    background: gainsboro;
+}
+.ExplorerElements h1 {
+    color: black;
+    text-align: right;
+    padding-top: 25px;
+    padding-right: 25px;
+    margin:0;
+
+}
+.ExplorerElements svg {
+    position: absolute;
+    
+}
+.Result {
+    display:inline;
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    z-index: -1;
+}
+#icon {
+    position: relative;
+    display: inline-block;
+    background: gray;
+    width: 200%;
+    height: 75px;
+    border-radius: 25px;
+    position: relative;
+    right: 20px;
+}
+#text {
+    color: white;
+    font-weight: 500;
+    font-size: x-large;
+    padding-left: 30px;
+    padding-top: 25px;
+    margin: 0;
+}
+#addButton {
+    position: absolute;
+    bottom: 10px;
+    left: 400px;
+}

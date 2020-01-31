@@ -1,0 +1,35 @@
+#explorer {
+    position: fixed;
+    width: 20vw;
+    height: 100vh;
+    min-width: 250px;
+    left: 0px;
+    top: 0px;
+
+    /* grad */
+
+    background: skyblue;
+}
+#explorer>header {
+    background: rgb(243, 243, 243);
+    border-radius: 0 0 5vh 0;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.25);
+}
+#explorer>header>button {
+    background: none;
+    position: relative;
+    bottom: 0;
+    transition: 0.1s ease-in bottom;
+}
+#explorer>header>button:hover{
+    bottom: 0.5vh;
+}
+#explorer>header>* { 
+    display: inline; 
+    vertical-align: middle;
+    margin: auto;
+}
+
+#explorer>div {
+    padding-top: 10px;
+}
