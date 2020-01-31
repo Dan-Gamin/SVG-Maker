@@ -1,7 +1,7 @@
 {
     "name":"SVG Maker",
+    "scope": "/SVG-Maker/",
     "start_url":"HTML/Maker-new.html",
-    "scope": "SVG-Maker/",
     "lang": "en-US",
     "orientation": "landscape",
     "background_color":"white",
