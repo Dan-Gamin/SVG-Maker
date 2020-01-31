@@ -11,7 +11,7 @@
     "categories": ["photo","productivity"],
     "icons": [
         {
-            "src":"Resources/Images/placeholder.png",
+            "src":"SVG-Maker/Resources/Images/placeholder.png",
             "sizes": "960x960",
             "type": "image/png"
         }
